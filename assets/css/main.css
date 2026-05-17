@@ -2282,3 +2282,40 @@ button,
     width: 100%;
     height: auto;
 }
+
+/* About Page Layout */
+
+.about-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* Mobile Support */
+@media screen and (max-width: 736px) {
+    .about-flex {
+        flex-direction: column;
+    }
+
+    .about-image {
+        width: 180px;
+        margin: 0 auto;
+    }
+}
