@@ -2319,3 +2319,38 @@ button,
         margin: 0 auto;
     }
 }
+/* Article Popups */
+
+.article-popup {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 2rem;
+}
+
+.article-popup:target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background: #ffffff;
+    max-width: 700px;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    border-bottom: none;
+    font-size: 2rem;
+    line-height: 1;
+    color: #f4b400 !important;
+}
