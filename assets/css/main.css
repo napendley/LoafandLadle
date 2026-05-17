@@ -2271,3 +2271,14 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+/* Home Page Logo Size */
+.home-logo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.home-logo img {
+    width: 100%;
+    height: auto;
+}
